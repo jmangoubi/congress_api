@@ -1,0 +1,13 @@
+<h1>Congress#index</h1>
+
+  
+  <% @bills.bills.each do |b| %>
+    <% @bill_fields.each do |f| %>
+      <%= "#{f}:      #{b.send(f)}"  %>
+      <br>
+    <% end %>
+      <br>
+  <% end %>
+  
+  
+

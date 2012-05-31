@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Congress API Examples for PoliLobby</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<a href="/congress/index">Recent Bills list</a> <br>
+ <a href="/people/index">Lookup your Representatives</a> <br>
+ <a href="/influence/index">Track how much a person gave in contributions</a> <br>
+
+
+
+<%= yield %>
+
+</body>
+</html>
